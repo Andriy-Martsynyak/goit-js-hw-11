@@ -1,15 +1,30 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="eng">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page title</title>
+    <title>Homework 11</title>
     <link rel="stylesheet" href="./sass/index.scss" />
     <script type="module" src="./index.js"></script>
   </head>
+
   <body>
-    <div>test1</div>
-    <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <include src="./partials/example.html"></include>
+    <header class="header">
+      <div class="container">
+        <form class="search-form" id="search-form">
+          <input class="search-form__input"
+            type="text"
+            name="searchQuery"
+            autocomplete="off"
+            placeholder="Search images..."
+          />
+          <button class= "btn" type="submit">Search &#128269 </button>
+        </form>
+      </div>
+    </header>
+<div class="container">
+		<div class="gallery"></div>
+		<button class="btn load-more-btn" type="button" hidden>Load more</button>
+	</div>
   </body>
 </html>
