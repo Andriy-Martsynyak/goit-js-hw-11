@@ -41,10 +41,6 @@ img {
   border-radius: 5px;
 }
 
-.search-form__input:focus {
-  border-color: #73c189;
-}
-
 .btn {
   padding: 5px;
   border: 2px solid #abcde0;
@@ -85,7 +81,7 @@ img {
 
 .load-more-btn {
   padding: 10px 15px;
-  border-color: #778b96;
+  border: 2px solid #abcde0;
   margin: 30px auto 10px auto;
   cursor: pointer;
 }
